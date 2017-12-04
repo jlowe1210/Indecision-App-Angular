@@ -13,7 +13,7 @@ export class ActionComponent implements OnInit {
 
 
 
-  constructor(private myData: DataService, private modalService: NgbModal ) { }
+  constructor(public myData: DataService, private modalService: NgbModal ) { }
 
   ngOnInit() {
   }
@@ -22,4 +22,5 @@ export class ActionComponent implements OnInit {
   open(content) {
     this.modalService.open(content);
   }
+
 }

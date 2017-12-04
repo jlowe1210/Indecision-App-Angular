@@ -9,7 +9,7 @@ import { DataService } from '../data.service';
 export class OptionComponent implements OnInit {
   @Input() option;
   @Input() inx;
-  constructor(private myData: DataService) { }
+  constructor(public myData: DataService) { }
 
   ngOnInit() {
   }
