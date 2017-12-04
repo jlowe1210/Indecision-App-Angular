@@ -1,0 +1,7 @@
+<div [ngClass]="'widget-header'"><h4>Your Options</h4>
+  <button (click)='onRemoveAll()' [ngClass]="'button-link'">Remove All</button>
+</div>
+<p *ngIf='Options.length === 0; else template'>Please add option to get started</p>
+<ng-template #template>
+  <app-option *ngFor='let option of Options; let i = index' [option]='option' [inx]='i'></app-option>
+</ng-template>

@@ -1,0 +1,30 @@
+
+p{
+  text-align: center;
+  padding: 2.6rem;
+  color: #a5afd7;
+  font-size: 1.3rem;
+  border-bottom: .2px solid #a5afd7;
+  margin: 0;
+}
+
+
+.button-link{
+  background: none;
+  border: none;
+  color: #a5afd7;
+  padding: 0;
+}
+
+.widget-header{
+  background-color: #3c4251;
+  color: #a5afd7;
+  padding: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget-header h4 {
+  margin: 0;
+}
+

@@ -1,0 +1,11 @@
+<form #f='ngForm' (ngSubmit)='onSubmit(f)' >
+  <input
+    type='text'
+    name='option'
+    ngModel
+    required
+    minlength="1"
+    #input
+  />
+  <button [disabled]='!f.valid' [ngClass]="'button'">Add Option</button>
+</form>
