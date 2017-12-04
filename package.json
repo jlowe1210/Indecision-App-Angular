@@ -51,5 +51,8 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
+  },
+  "scrips": {
+    "deploy": "ng build --prod --base-href https://jlowe1210.github.io/Indecision-App-Angular/ && angular-cli-ghpages --branch gh-pages"
   }
 }
